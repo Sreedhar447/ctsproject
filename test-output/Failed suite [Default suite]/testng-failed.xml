@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.cts.Academic.testcases.HomepageTest">
+        <methods>
+          <include name="verify_logo"/>
+          <include name="click_on_medicine_health"/>
+          <include name="setup"/>
+          <include name="tear_down"/>
+          <include name="click_on_Acess_purchase_link"/>
+          <include name="click_on_Arts_human_link"/>
+          <include name="user_name_label_check"/>
+          <include name="vertify_homepage_title"/>
+        </methods>
+      </class> <!-- com.cts.Academic.testcases.HomepageTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

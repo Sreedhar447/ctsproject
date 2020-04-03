@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="133513" started-at="2020-04-03T10:21:21Z" finished-at="2020-04-03T10:23:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="133513" started-at="2020-04-03T10:21:21Z" finished-at="2020-04-03T10:23:35Z">
+      <class name="com.cts.Academic.testcases.RegisterpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@70be0a2b]" name="setup" is-config="true" duration-ms="69384" started-at="2020-04-03T10:21:29Z" finished-at="2020-04-03T10:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Registertest_check(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@70be0a2b]" name="Registertest_check" duration-ms="6073" started-at="2020-04-03T10:22:38Z" data-provider="user_credentials" finished-at="2020-04-03T10:22:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goutham@143gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goutham@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goutham@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registertest_check -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@70be0a2b]" name="browserclose" is-config="true" duration-ms="1443" started-at="2020-04-03T10:22:44Z" finished-at="2020-04-03T10:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@70be0a2b]" name="setup" is-config="true" duration-ms="42489" started-at="2020-04-03T10:22:45Z" finished-at="2020-04-03T10:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Registertest_check(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@70be0a2b]" name="Registertest_check" duration-ms="5146" started-at="2020-04-03T10:23:28Z" data-provider="user_credentials" finished-at="2020-04-03T10:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msreedharreddy447@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sreedhar@447]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sreedhar@447]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registertest_check -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@70be0a2b]" name="browserclose" is-config="true" duration-ms="1496" started-at="2020-04-03T10:23:33Z" finished-at="2020-04-03T10:23:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.cts.Academic.testcases.RegisterpageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
