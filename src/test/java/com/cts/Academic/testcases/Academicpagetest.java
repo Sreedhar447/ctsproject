@@ -22,8 +22,9 @@ public class Academicpagetest extends Testbase {
 
 	@BeforeMethod
 	public void setup() {
-		academicpage = new Academicpage();
+		
 		initialization();
+		academicpage = new Academicpage();
 
 	}
 

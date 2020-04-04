@@ -3,13 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cts.Academic.testcases.RegisterpageTest">
+      <class name="com.cts.Academic.testcases.Academicpagetest">
         <methods>
-          <include name="Registertest_check"/>
+          <include name="validate_signin_link"/>
+          <include name="verify_img"/>
           <include name="browserclose"/>
+          <include name="Registration_link"/>
           <include name="setup"/>
+          <include name="login_check"/>
         </methods>
-      </class> <!-- com.cts.Academic.testcases.RegisterpageTest -->
+      </class> <!-- com.cts.Academic.testcases.Academicpagetest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

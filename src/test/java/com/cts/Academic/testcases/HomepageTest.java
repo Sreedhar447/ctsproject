@@ -49,7 +49,7 @@ public class HomepageTest extends Testbase {
 	public void verify_logo() {
 
 		boolean br = homepage.logo_check();
-		Assert.assertTrue(br, "logomissing");
+		Assert.assertTrue(br, "logo missing");
 	}
 
 	@Test(priority = 3)
