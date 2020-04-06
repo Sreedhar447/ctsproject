@@ -38,10 +38,10 @@ public class Testbase {
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "G:/chromedriver_win32/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "G:\\eclipse\\eclipse2020\\Academic.com\\src\\test\\resources\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("FF")) {
-			System.setProperty("webdriver.gecko.driver", "G:/chromedriver_win32/chromedriver.exe");
+			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 			driver = new FirefoxDriver();
 		}
 
