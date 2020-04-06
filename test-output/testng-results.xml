@@ -1,73 +1,207 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="196704" started-at="2020-04-04T11:19:26Z" finished-at="2020-04-04T11:22:43Z">
+  <suite name="Academic.oup page website Test Automation Test Suite" duration-ms="484536" started-at="2020-04-06T14:00:13 IST" finished-at="2020-04-06T14:08:18 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="196704" started-at="2020-04-04T11:19:26Z" finished-at="2020-04-04T11:22:43Z">
-      <class name="com.cts.Academic.testcases.Academicpagetest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="setup" is-config="true" duration-ms="33601" started-at="2020-04-04T11:19:26Z" finished-at="2020-04-04T11:20:00Z">
+    <test name="com.cts.Academic.Test Cases" duration-ms="484536" started-at="2020-04-06T14:00:13 IST" finished-at="2020-04-06T14:08:18 IST">
+      <class name="com.cts.Academic.testcases.RegisterpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@1500955a]" name="setup" is-config="true" duration-ms="34937" started-at="2020-04-06T14:00:15 IST" finished-at="2020-04-06T14:00:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validate_login_page()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="validate_login_page" duration-ms="81" started-at="2020-04-04T11:20:00Z" finished-at="2020-04-04T11:20:00Z">
+        <test-method status="PASS" signature="Registertest_check(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@1500955a]" name="Registertest_check" duration-ms="3616" started-at="2020-04-06T14:00:50 IST" data-provider="user_credentials" finished-at="2020-04-06T14:00:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[goutham@143gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Goutham@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Goutham@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registertest_check -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@1500955a]" name="browserclose" is-config="true" duration-ms="572" started-at="2020-04-06T14:00:54 IST" finished-at="2020-04-06T14:00:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@1500955a]" name="setup" is-config="true" duration-ms="36252" started-at="2020-04-06T14:00:55 IST" finished-at="2020-04-06T14:01:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Registertest_check(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@1500955a]" name="Registertest_check" duration-ms="3907" started-at="2020-04-06T14:01:31 IST" data-provider="user_credentials" finished-at="2020-04-06T14:01:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msreedharreddy447@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sreedhar@447]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sreedhar@447]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Registertest_check -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.RegisterpageTest@1500955a]" name="browserclose" is-config="true" duration-ms="2374" started-at="2020-04-06T14:01:35 IST" finished-at="2020-04-06T14:01:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.cts.Academic.testcases.RegisterpageTest -->
+      <class name="com.cts.Academic.testcases.HomepageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="setup" is-config="true" duration-ms="32884" started-at="2020-04-06T14:04:18 IST" finished-at="2020-04-06T14:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="vertify_homepage_title()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="vertify_homepage_title" duration-ms="18" started-at="2020-04-06T14:04:51 IST" finished-at="2020-04-06T14:04:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vertify_homepage_title -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="tear_down" is-config="true" duration-ms="1448" started-at="2020-04-06T14:04:51 IST" finished-at="2020-04-06T14:04:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="setup" is-config="true" duration-ms="29797" started-at="2020-04-06T14:04:52 IST" finished-at="2020-04-06T14:05:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="user_name_label_check()[pri:1, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="user_name_label_check" duration-ms="328" started-at="2020-04-06T14:05:22 IST" finished-at="2020-04-06T14:05:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_name_label_check -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="tear_down" is-config="true" duration-ms="4625" started-at="2020-04-06T14:05:22 IST" finished-at="2020-04-06T14:05:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="setup" is-config="true" duration-ms="37149" started-at="2020-04-06T14:05:27 IST" finished-at="2020-04-06T14:06:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verify_logo()[pri:2, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="verify_logo" duration-ms="325" started-at="2020-04-06T14:06:04 IST" finished-at="2020-04-06T14:06:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logo -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="tear_down" is-config="true" duration-ms="4721" started-at="2020-04-06T14:06:04 IST" finished-at="2020-04-06T14:06:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="setup" is-config="true" duration-ms="40651" started-at="2020-04-06T14:06:09 IST" finished-at="2020-04-06T14:06:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="click_on_Arts_human_link()[pri:3, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="click_on_Arts_human_link" duration-ms="7925" started-at="2020-04-06T14:06:50 IST" finished-at="2020-04-06T14:06:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Arts_human_link -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="tear_down" is-config="true" duration-ms="4239" started-at="2020-04-06T14:06:58 IST" finished-at="2020-04-06T14:07:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="setup" is-config="true" duration-ms="27710" started-at="2020-04-06T14:07:02 IST" finished-at="2020-04-06T14:07:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="click_on_medicine_health()[pri:4, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="click_on_medicine_health" duration-ms="8939" started-at="2020-04-06T14:07:30 IST" finished-at="2020-04-06T14:07:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_medicine_health -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="tear_down" is-config="true" duration-ms="618" started-at="2020-04-06T14:07:39 IST" finished-at="2020-04-06T14:07:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="setup" is-config="true" duration-ms="29309" started-at="2020-04-06T14:07:39 IST" finished-at="2020-04-06T14:08:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="click_on_Acess_purchase_link()[pri:5, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="click_on_Acess_purchase_link" duration-ms="8828" started-at="2020-04-06T14:08:08 IST" finished-at="2020-04-06T14:08:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Acess_purchase_link -->
+        <test-method status="PASS" signature="tear_down()[pri:0, instance:com.cts.Academic.testcases.HomepageTest@29b5cd00]" name="tear_down" is-config="true" duration-ms="475" started-at="2020-04-06T14:08:17 IST" finished-at="2020-04-06T14:08:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- com.cts.Academic.testcases.HomepageTest -->
+      <class name="com.cts.Academic.testcases.Academicpagetest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="setup" is-config="true" duration-ms="25485" started-at="2020-04-06T14:01:37 IST" finished-at="2020-04-06T14:02:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validate_login_page()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="validate_login_page" duration-ms="29" started-at="2020-04-06T14:02:03 IST" finished-at="2020-04-06T14:02:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_login_page -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="browserclose" is-config="true" duration-ms="719" started-at="2020-04-04T11:20:00Z" finished-at="2020-04-04T11:20:01Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="browserclose" is-config="true" duration-ms="4792" started-at="2020-04-06T14:02:03 IST" finished-at="2020-04-06T14:02:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="setup" is-config="true" duration-ms="38562" started-at="2020-04-04T11:20:01Z" finished-at="2020-04-04T11:20:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="setup" is-config="true" duration-ms="25457" started-at="2020-04-06T14:02:07 IST" finished-at="2020-04-06T14:02:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verify_img()[pri:1, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="verify_img" duration-ms="247" started-at="2020-04-04T11:20:39Z" finished-at="2020-04-04T11:20:39Z">
+        <test-method status="PASS" signature="verify_img()[pri:1, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="verify_img" duration-ms="244" started-at="2020-04-06T14:02:33 IST" finished-at="2020-04-06T14:02:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_img -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="browserclose" is-config="true" duration-ms="4573" started-at="2020-04-04T11:20:39Z" finished-at="2020-04-04T11:20:44Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="browserclose" is-config="true" duration-ms="5055" started-at="2020-04-06T14:02:33 IST" finished-at="2020-04-06T14:02:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="setup" is-config="true" duration-ms="28996" started-at="2020-04-04T11:20:44Z" finished-at="2020-04-04T11:21:13Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="setup" is-config="true" duration-ms="26731" started-at="2020-04-06T14:02:38 IST" finished-at="2020-04-06T14:03:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Registration_link()[pri:2, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="Registration_link" duration-ms="11728" started-at="2020-04-04T11:21:13Z" finished-at="2020-04-04T11:21:25Z">
+        <test-method status="PASS" signature="Registration_link()[pri:2, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="Registration_link" duration-ms="5676" started-at="2020-04-06T14:03:05 IST" finished-at="2020-04-06T14:03:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Registration_link -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="browserclose" is-config="true" duration-ms="930" started-at="2020-04-04T11:21:25Z" finished-at="2020-04-04T11:21:26Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="browserclose" is-config="true" duration-ms="4710" started-at="2020-04-06T14:03:11 IST" finished-at="2020-04-06T14:03:15 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="setup" is-config="true" duration-ms="35493" started-at="2020-04-04T11:21:26Z" finished-at="2020-04-04T11:22:01Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="setup" is-config="true" duration-ms="26979" started-at="2020-04-06T14:03:15 IST" finished-at="2020-04-06T14:03:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="validate_signin_link()[pri:3, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="validate_signin_link" duration-ms="59" started-at="2020-04-04T11:22:01Z" finished-at="2020-04-04T11:22:01Z">
+        <test-method status="PASS" signature="validate_signin_link()[pri:3, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="validate_signin_link" duration-ms="65" started-at="2020-04-06T14:03:42 IST" finished-at="2020-04-06T14:03:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_signin_link -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="browserclose" is-config="true" duration-ms="4266" started-at="2020-04-04T11:22:01Z" finished-at="2020-04-04T11:22:05Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="browserclose" is-config="true" duration-ms="4183" started-at="2020-04-06T14:03:42 IST" finished-at="2020-04-06T14:03:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="setup" is-config="true" duration-ms="33320" started-at="2020-04-04T11:22:05Z" finished-at="2020-04-04T11:22:39Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="setup" is-config="true" duration-ms="21541" started-at="2020-04-06T14:03:47 IST" finished-at="2020-04-06T14:04:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login_check()[pri:4, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="login_check" duration-ms="3295" started-at="2020-04-04T11:22:39Z" finished-at="2020-04-04T11:22:42Z">
+        <test-method status="PASS" signature="login_check()[pri:4, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="login_check" duration-ms="5190" started-at="2020-04-06T14:04:08 IST" finished-at="2020-04-06T14:04:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_check -->
-        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@23f7d05d]" name="browserclose" is-config="true" duration-ms="668" started-at="2020-04-04T11:22:42Z" finished-at="2020-04-04T11:22:43Z">
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.cts.Academic.testcases.Academicpagetest@e874448]" name="browserclose" is-config="true" duration-ms="4448" started-at="2020-04-06T14:04:13 IST" finished-at="2020-04-06T14:04:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserclose -->
       </class> <!-- com.cts.Academic.testcases.Academicpagetest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- com.cts.Academic.Test Cases -->
+  </suite> <!-- Academic.oup page website Test Automation Test Suite -->
 </testng-results>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="151.056831">
+<testcase classname="Academic page login feature" name="when user is want register" time="38.345161">
+<system-out><![CDATA[Given user is academic page.................................................passed
+When user clicks on registration link.......................................passed
+Then user enters "msreedharreddy447@gmail.com" and "Sreedhar@447" and "Sreedhar@447".passed
+]]></system-out>
+</testcase>
+<testcase classname="Academic page login feature" name="Academic page login test Scenario" time="39.205763">
+<system-out><![CDATA[Given user is already on Academic page......................................passed
+When title of academic page is Journals  Oxford Academic  or not............passed
+Then user verify the oxford img logo is present or not......................passed
+Then user clicks on registerpage............................................passed
+Then user verifies  whethere the signin link present........................passed
+Then user eneter into the home page by enterring login credentials and user enters into loginpage.passed
+Then user close the bowser..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Academic page login feature" name="when  user is on home page then perfom operations" time="73.505907">
+<system-out><![CDATA[Given user is on home page..................................................passed
+When user verifies homepage title...........................................passed
+Then user checks label......................................................passed
+Then user verifies the logo.................................................passed
+Then user is able to click on Arts&humanities link..........................passed
+Then user is able to click on Medicines&health link.........................passed
+Then user is able to click on Access and purchase link......................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

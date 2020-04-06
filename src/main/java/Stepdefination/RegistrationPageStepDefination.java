@@ -30,8 +30,7 @@ public class RegistrationPageStepDefination extends Testbase {
 	public void user_is_academic_page() {
 		initialization();
 		academicpage = new Academicpage();
-		testutil= new Testutil();
-		
+		testutil = new Testutil();
 
 	}
 
@@ -47,16 +46,15 @@ public class RegistrationPageStepDefination extends Testbase {
 
 	}
 
+	@Then("^user enters \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$")
+	public void user_enters_and_and(String arg1, String arg2, String arg3) {
+		registerpage.register(arg1, arg2, arg3);
+		try {
+			testutil.takeScreenshotAtEndOfTest();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
-@Then("^user enters \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$")
-public void user_enters_and_and(String arg1, String arg2, String arg3)  {
-	registerpage.register(arg1, arg2, arg3);
-	try {
-		testutil.takeScreenshotAtEndOfTest();
-	} catch (IOException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
 	}
-   
-}
 }

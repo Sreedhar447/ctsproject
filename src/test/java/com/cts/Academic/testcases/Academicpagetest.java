@@ -1,11 +1,14 @@
 package com.cts.Academic.testcases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.cts.Base.Testbase;
+import com.cts.academic.util.Testutil;
 import com.cts.pages.Academicpage;
 import com.cts.pages.Homepage;
 import com.cts.pages.Registerpage;
@@ -14,6 +17,7 @@ public class Academicpagetest extends Testbase {
 	Academicpage academicpage;
 	Homepage homepage;
 	Registerpage registerpage;
+	Testutil testutil;
 
 	public Academicpagetest() {
 		super();
@@ -22,9 +26,10 @@ public class Academicpagetest extends Testbase {
 
 	@BeforeMethod
 	public void setup() {
-		
+
 		initialization();
 		academicpage = new Academicpage();
+		testutil= new Testutil();
 
 	}
 
@@ -59,6 +64,12 @@ public class Academicpagetest extends Testbase {
 	@Test(priority = 4)
 	public void login_check() {
 		homepage = academicpage.clickon_signpage(prop.getProperty("username"), prop.getProperty("password"));
+		try {
+			testutil.takeScreenshotAtEndOfTest();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 

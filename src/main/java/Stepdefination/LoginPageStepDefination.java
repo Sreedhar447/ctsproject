@@ -64,8 +64,7 @@ public class LoginPageStepDefination extends Testbase {
 	}
 
 	@Then("^user eneter into the home page by enterring login credentials and user enters into loginpage$")
-	public void user_eneter_into_the_home_page_by_enterring_login_credentials_and_user_enters_into_loginpage()
-			 {
+	public void user_eneter_into_the_home_page_by_enterring_login_credentials_and_user_enters_into_loginpage() {
 
 		homepage = academicpage.clickon_signpage(prop.getProperty("username"), prop.getProperty("password"));
 		try {

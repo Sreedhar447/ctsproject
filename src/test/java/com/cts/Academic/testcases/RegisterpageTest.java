@@ -47,7 +47,7 @@ public class RegisterpageTest extends Testbase {
 		Object[][] testData = null;
 
 		// Opening the Excel File
-		FileInputStream file = new FileInputStream("C:\\Users\\sreed\\OneDrive\\Desktop\\academic.xlsx");
+		FileInputStream file = new FileInputStream("G:\\eclipse\\eclipse2020\\Academic.com\\src\\test\\resources\\com\\cts\\academic\\testdata\\academic.xlsx");
 		// OPening the workbook
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		// Open the Sheet and pass the sheet name "Login"
@@ -79,6 +79,12 @@ public class RegisterpageTest extends Testbase {
 	@Test(dataProvider = "user_credentials")
 	public void Registertest_check(String Email, String password, String confirmpwd) {
 		register.register(Email, password, confirmpwd);
+		try {
+			testutil.takeScreenshotAtEndOfTest();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
