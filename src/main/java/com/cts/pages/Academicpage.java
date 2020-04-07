@@ -9,7 +9,7 @@ import com.cts.Base.Testbase;
 public class Academicpage extends Testbase {
 
 //page repository OR
-	@FindBy(id = "header-account-info-user-fullname")
+	@FindBy(xpath = "//li[@class='oup-header-menu-item desktop']//a[@id='header-account-info-user-fullname']")
 	WebElement signinlink;
 	@FindBy(xpath = "//input[@id='user_LoginFormPopup']")
 	WebElement emaiaddress;
@@ -31,36 +31,35 @@ public class Academicpage extends Testbase {
 	public String verifypage() {
 
 		return driver.getTitle();
-		
+
 	}
+
 	public boolean verifi_oxfordimg() {
-		
+
 		return oxfordimg.isDisplayed();
-		
+
 	}
-	
+
 	public boolean verify_signinLinlk() {
 		
+
 		return signinlink.isDisplayed();
-		
+
 	}
-	
 
-	public Homepage clickon_signpage( String un,String pw) {
+	public Homepage clickon_signpage(String un, String pw) {
 
+		
 		signinlink.click();
 		emaiaddress.sendKeys(un);
 		password.sendKeys(pw);
 		signinbtn.click();
 		return new Homepage();
 	}
+
 	public Registerpage clickon_register() {
-		
 		Registerlink.click();
 		return new Registerpage();
-		
 	}
-	
-	
 
 }

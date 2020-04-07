@@ -29,7 +29,7 @@ public class Academicpagetest extends Testbase {
 
 		initialization();
 		academicpage = new Academicpage();
-		testutil= new Testutil();
+		testutil = new Testutil();
 
 	}
 
@@ -63,7 +63,12 @@ public class Academicpagetest extends Testbase {
 
 	@Test(priority = 4)
 	public void login_check() {
-		homepage = academicpage.clickon_signpage(prop.getProperty("username"), prop.getProperty("password"));
+		try {
+			homepage = academicpage.clickon_signpage(prop.getProperty("username"), prop.getProperty("password"));
+		} catch (Throwable e1) {
+			// TODO Auto-generated catch block
+			e1.printStackTrace();
+		}
 		try {
 			testutil.takeScreenshotAtEndOfTest();
 		} catch (IOException e) {

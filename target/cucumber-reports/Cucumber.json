@@ -3,7 +3,53 @@
     "line": 1,
     "elements": [
       {
-        "line": 8,
+        "line": 37,
+        "name": "user want move Access and purchase link",
+        "description": "",
+        "id": "academic-page-login-feature;user-want-move-access-and-purchase-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45324287800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is  on academic journal home page by signing in",
+            "match": {
+              "location": "Access_purchaseStepDefination.user_is_on_academic_journal_home_page_by_signing_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10957404000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user is able to click on Access and purchase link",
+            "match": {
+              "location": "Access_purchaseStepDefination.user_is_able_to_click_on_Access_and_purchase_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4502141900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user close the bowser",
+            "match": {
+              "location": "LoginPageStepDefination.user_close_the_bowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
         "name": "when user is want register",
         "description": "",
         "id": "academic-page-login-feature;when-user-is-want-register;;2",
@@ -12,7 +58,7 @@
         "steps": [
           {
             "result": {
-              "duration": 30512359700,
+              "duration": 25180778000,
               "status": "passed"
             },
             "line": 3,
@@ -24,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 5592684500,
+              "duration": 5357244700,
               "status": "passed"
             },
             "line": 4,
@@ -36,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 2240116500,
+              "duration": 3099260100,
               "status": "passed"
             },
             "line": 5,
@@ -64,95 +110,13 @@
               2
             ],
             "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Academic page login test Scenario",
-        "description": "",
-        "id": "academic-page-login-feature;academic-page-login-test-scenario",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 26759261500,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user is already on Academic page",
-            "match": {
-              "location": "LoginPageStepDefination.user_is_already_on_Academic_page()"
-            },
-            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 70181400,
+              "duration": 475209700,
               "status": "passed"
             },
-            "line": 12,
-            "name": "title of academic page is Journals  Oxford Academic  or not",
-            "match": {
-              "location": "LoginPageStepDefination.title_of_academic_page_is_Journals_Oxford_Academic_is()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1683114000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user verify the oxford img logo is present or not",
-            "match": {
-              "location": "LoginPageStepDefination.user_verify_the_oxford_img_logo_is_present_or_not()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5319895500,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user clicks on registerpage",
-            "match": {
-              "location": "LoginPageStepDefination.user_clicks_on_registerpage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 95982500,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user verifies  whethere the signin link present",
-            "match": {
-              "location": "LoginPageStepDefination.user_verifies_whethere_the_signin_link_present()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4579751000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user eneter into the home page by enterring login credentials and user enters into loginpage",
-            "match": {
-              "location": "LoginPageStepDefination.user_eneter_into_the_home_page_by_enterring_login_credentials_and_user_enters_into_loginpage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 697576900,
-              "status": "passed"
-            },
-            "line": 17,
+            "line": 6,
             "name": "user close the bowser",
             "match": {
               "location": "LoginPageStepDefination.user_close_the_bowser()"
@@ -162,7 +126,101 @@
         ]
       },
       {
-        "line": 21,
+        "line": 11,
+        "name": "Academic page login test Scenario",
+        "description": "",
+        "id": "academic-page-login-feature;academic-page-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27939749900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is already on Academic page",
+            "match": {
+              "location": "LoginPageStepDefination.user_is_already_on_Academic_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15714000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "title of academic page is Journals  Oxford Academic  or not",
+            "match": {
+              "location": "LoginPageStepDefination.title_of_academic_page_is_Journals_Oxford_Academic_is()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 183622800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user verify the oxford img logo is present or not",
+            "match": {
+              "location": "LoginPageStepDefination.user_verify_the_oxford_img_logo_is_present_or_not()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6691726700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on registerpage",
+            "match": {
+              "location": "LoginPageStepDefination.user_clicks_on_registerpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 109260400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user verifies  whethere the signin link present",
+            "match": {
+              "location": "LoginPageStepDefination.user_verifies_whethere_the_signin_link_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3193071400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user eneter into the home page by enterring login credentials and user enters into loginpage",
+            "match": {
+              "location": "LoginPageStepDefination.user_eneter_into_the_home_page_by_enterring_login_credentials_and_user_enters_into_loginpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 460317900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user close the bowser",
+            "match": {
+              "location": "LoginPageStepDefination.user_close_the_bowser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
         "name": "when  user is on home page then perfom operations",
         "description": "",
         "id": "academic-page-login-feature;when--user-is-on-home-page-then-perfom-operations",
@@ -171,10 +229,10 @@
         "steps": [
           {
             "result": {
-              "duration": 42434253300,
+              "duration": 33017684600,
               "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "user is on home page",
             "match": {
               "location": "HomepageStepDefination.user_is_on_home_page()"
@@ -183,10 +241,10 @@
           },
           {
             "result": {
-              "duration": 15882400,
+              "duration": 51086600,
               "status": "passed"
             },
-            "line": 24,
+            "line": 25,
             "name": "user verifies homepage title",
             "match": {
               "location": "HomepageStepDefination.user_is_on_homepage()"
@@ -195,10 +253,10 @@
           },
           {
             "result": {
-              "duration": 144296000,
+              "duration": 167403900,
               "status": "passed"
             },
-            "line": 25,
+            "line": 26,
             "name": "user checks label",
             "match": {
               "location": "HomepageStepDefination.user_checks_label()"
@@ -207,10 +265,10 @@
           },
           {
             "result": {
-              "duration": 100846000,
+              "duration": 221713400,
               "status": "passed"
             },
-            "line": 26,
+            "line": 27,
             "name": "user verifies the logo",
             "match": {
               "location": "HomepageStepDefination.user_verifies_the_logo()"
@@ -219,10 +277,10 @@
           },
           {
             "result": {
-              "duration": 10603232900,
+              "duration": 9564746500,
               "status": "passed"
             },
-            "line": 27,
+            "line": 28,
             "name": "user is able to click on Arts\u0026humanities link",
             "match": {
               "location": "HomepageStepDefination.user_is_able_to_click_on_Arts_humanities_link()"
@@ -231,37 +289,59 @@
           },
           {
             "result": {
-              "duration": 8593257900,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "user is able to click on Medicines\u0026health link",
-            "match": {
-              "location": "HomepageStepDefination.user_is_able_to_click_on_Medicines_health_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7212073500,
+              "duration": 333393800,
               "status": "passed"
             },
             "line": 29,
-            "name": "user is able to click on Access and purchase link",
+            "name": "user close the browser",
             "match": {
-              "location": "HomepageStepDefination.user_is_able_to_click_on_Access_and_purchase_link()"
+              "location": "HomepageStepDefination.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "user want to move to medicine and health journal",
+        "description": "",
+        "id": "academic-page-login-feature;user-want-to-move-to-medicine-and-health-journal",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 38842567300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user is on academic page journal home",
+            "match": {
+              "location": "Medicine_healthStepDefination.user_is_on_academic_page_journal_home()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51467001600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is able to click on Medicines\u0026health link",
+            "match": {
+              "location": "Medicine_healthStepDefination.user_is_able_to_click_on_Medicines_health_link()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 4402065100,
+              "duration": 338975300,
               "status": "passed"
             },
-            "line": 30,
-            "name": "user close the browser",
+            "line": 34,
+            "name": "user close the bowser",
             "match": {
-              "location": "HomepageStepDefination.user_close_the_browser()"
+              "location": "LoginPageStepDefination.user_close_the_bowser()"
             },
             "keyword": "Then "
           }
@@ -272,6 +352,6 @@
     "description": "",
     "id": "academic-page-login-feature",
     "keyword": "Feature",
-    "uri": "G:/eclipse/eclipse2020/Academic.com/src/main/java/Feature/login.feature"
+    "uri": "G:/eclipse/eclipse2020/Academic.com/src/main/resources/Feature/login.feature"
   }
 ]

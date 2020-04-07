@@ -23,7 +23,7 @@ public class Testbase {
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(
-					System.getProperty("user.dir") + "/src/main/java/com/cts/academic/config/config.properties");
+					System.getProperty("user.dir") + "/src/main/resources/com/cts/academic/config/config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -38,7 +38,7 @@ public class Testbase {
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "G:\\eclipse\\eclipse2020\\Academic.com\\src\\test\\resources\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "G:\\eclipse\\eclipse2020\\Academic.com\\driver\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else if (browserName.equals("FF")) {
 			System.setProperty("webdriver.gecko.driver", "geckodriver.exe");

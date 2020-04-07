@@ -90,44 +90,7 @@ public class HomepageStepDefination extends Testbase {
 		Assert.assertEquals("Arts and humanities | Journals | Oxford Academic", actual);
 	}
 
-	@Then("^user is able to click on Medicines&health link$")
-	public void user_is_able_to_click_on_Medicines_health_link() {
-		String actual = homepage.click_on_medicines_health_link();
-		try {
-			Thread.sleep(4000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		try {
-			testutil.takeScreenshotAtEndOfTest();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 
-		Assert.assertEquals("Medicine and health | Journals | Oxford Academic", actual);
-
-	}
-
-	@Then("^user is able to click on Access and purchase link$")
-	public void user_is_able_to_click_on_Access_and_purchase_link() {
-		String actual = homepage.click_on_Acess_purchase_link();
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		try {
-			testutil.takeScreenshotAtEndOfTest();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		Assert.assertEquals("Access and Purchase Resource Centre | Journals | Oxford Academic", actual);
-
-	}
 
 	@Then("^user close the browser$")
 	public void user_close_the_browser() {

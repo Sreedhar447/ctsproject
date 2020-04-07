@@ -46,30 +46,30 @@ public class Homepage extends Testbase {
 	}
 
 	public String click_on_Arts_hum_link() {
-		  Actions ac = new Actions(driver);
-	ac.moveToElement(jornalby_subject_link).build().perform();
-	driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		 Arts_humanities_link.click();
+		Actions ac = new Actions(driver);
+		ac.moveToElement(jornalby_subject_link).build().perform();
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		Arts_humanities_link.click();
 		return driver.getTitle();
-		 
-	  }
+
+	}
+
 	public String click_on_medicines_health_link() {
 		Actions ac = new Actions(driver);
 		ac.moveToElement(jornalby_subject_link).build().perform();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		medicine_health_link.click();
 		return driver.getTitle();
-		
+
 	}
+
 	public String click_on_Acess_purchase_link() {
 		Actions ac = new Actions(driver);
 		ac.moveToElement(customer_services_link).build().perform();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Acess_purchase_link.click();
 		return driver.getTitle();
-		
+
 	}
-	
-	
 
 }

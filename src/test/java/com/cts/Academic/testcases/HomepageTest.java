@@ -32,7 +32,12 @@ public class HomepageTest extends Testbase {
 		homepage = new Homepage();
 		academicpage = new Academicpage();
 		testutil= new Testutil();
-		homepage = academicpage.clickon_signpage(prop.getProperty("username"), prop.getProperty("password"));
+		try {
+			homepage = academicpage.clickon_signpage(prop.getProperty("username"), prop.getProperty("password"));
+		} catch (Throwable e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
