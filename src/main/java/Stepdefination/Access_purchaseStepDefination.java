@@ -2,6 +2,7 @@ package Stepdefination;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.openqa.selenium.support.PageFactory;
 
@@ -19,6 +20,7 @@ public class Access_purchaseStepDefination extends Testbase {
 	Homepage homepage;
 	Registerpage registerpage;
 	Testutil testutil;
+	Logger log = Logger.getLogger(Access_purchaseStepDefination.class);
 
 	public Access_purchaseStepDefination() {
 		super();
@@ -28,12 +30,14 @@ public class Access_purchaseStepDefination extends Testbase {
 	@When("^user is  on academic journal home page by signing in$")
 	public void user_is_on_academic_journal_home_page_by_signing_in() {
 		initialization();
+		log.info("url launch");
 		academicpage = new Academicpage();
 		homepage = new Homepage();
 		registerpage = new Registerpage();
 
 		try {
 			homepage = academicpage.clickon_signpage(prop.getProperty("username"), prop.getProperty("password"));
+			log.info("enters into home page by using login credentials");
 		} catch (Throwable e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
@@ -46,6 +50,7 @@ public class Access_purchaseStepDefination extends Testbase {
 		}
 		try {
 			testutil.takeScreenshotAtEndOfTest();
+			log.info("takes Screenshpt");
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -56,6 +61,7 @@ public class Access_purchaseStepDefination extends Testbase {
 	@Then("^user is able to click on Access and purchase link$")
 	public void user_is_able_to_click_on_Access_and_purchase_link() {
 		String actual = homepage.click_on_Acess_purchase_link();
+		log.info("gets title of the page" + actual);
 		try {
 			Thread.sleep(4000);
 		} catch (InterruptedException e) {

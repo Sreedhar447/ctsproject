@@ -2,6 +2,7 @@ package com.cts.Academic.testcases;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,6 +19,7 @@ public class Academicpagetest extends Testbase {
 	Homepage homepage;
 	Registerpage registerpage;
 	Testutil testutil;
+	Logger log = Logger.getLogger(Academicpagetest.class);
 
 	public Academicpagetest() {
 		super();
@@ -28,6 +30,7 @@ public class Academicpagetest extends Testbase {
 	public void setup() {
 
 		initialization();
+		log.info("chromelaunch");
 		academicpage = new Academicpage();
 		testutil = new Testutil();
 
@@ -37,6 +40,7 @@ public class Academicpagetest extends Testbase {
 	public void validate_login_page() {
 
 		String title = academicpage.verifypage();
+		log.info("title is" + title);
 		Assert.assertEquals(title, "Journals | Oxford Academic");
 
 	}

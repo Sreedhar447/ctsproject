@@ -2,6 +2,7 @@ package Stepdefination;
 
 import java.io.IOException;
 
+import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.rules.ErrorCollector;
@@ -23,6 +24,7 @@ public class HomepageStepDefination extends Testbase {
 	Homepage homepage;
 	Registerpage registerpage;
 	Testutil testutil;
+	Logger log = Logger.getLogger(HomepageStepDefination.class);
 	@Rule
 	public ErrorCollector collector = new ErrorCollector();
 
@@ -35,12 +37,14 @@ public class HomepageStepDefination extends Testbase {
 	@Given("^user is on home page$")
 	public void user_is_on_home_page() throws Throwable {
 		initialization();
+		log.info("url launch");
 
 		academicpage = new Academicpage();
 		homepage = new Homepage();
 		registerpage = new Registerpage();
 
 		homepage = academicpage.clickon_signpage(prop.getProperty("username"), prop.getProperty("password"));
+		log.info("enters into home page by signing");
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {

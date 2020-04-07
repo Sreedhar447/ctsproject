@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.openqa.selenium.support.PageFactory;
 
 import com.cts.Base.Testbase;
+import com.cts.academic.util.Excelutility;
 import com.cts.academic.util.Testutil;
 import com.cts.pages.Academicpage;
 import com.cts.pages.Homepage;
@@ -25,12 +26,15 @@ public class RegistrationPageStepDefination extends Testbase {
 	Homepage homepage;
 	Registerpage registerpage;
 	Testutil testutil;
+	Excelutility excel;
 
 	@Given("^user is academic page$")
 	public void user_is_academic_page() {
 		initialization();
 		academicpage = new Academicpage();
 		testutil = new Testutil();
+		excel = new Excelutility();
+	
 
 	}
 
@@ -55,6 +59,7 @@ public class RegistrationPageStepDefination extends Testbase {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+	
 
 	}
 }

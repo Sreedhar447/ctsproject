@@ -1,0 +1,6 @@
+2020-04-07 13:05:29,008  INFO [main] HomepageStepDefination:40 - url launch
+2020-04-07 13:05:32,097  INFO [main] HomepageStepDefination:47 - enters into home page by signing
+2020-04-07 13:06:54,836  INFO [main] Access_purchaseStepDefination:33 - url launch
+2020-04-07 13:06:58,072  INFO [main] Access_purchaseStepDefination:40 - enters into home page by using login credentials
+2020-04-07 13:07:07,123  INFO [main] Access_purchaseStepDefination:53 - takes Screenshpt
+2020-04-07 13:07:13,628  INFO [main] Access_purchaseStepDefination:64 - gets title of the pageAccess and Purchase Resource Centre | Journals | Oxford Academic
