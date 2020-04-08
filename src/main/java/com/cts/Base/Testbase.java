@@ -35,7 +35,7 @@ public class Testbase {
 	}
 
 	public static void initialization() {
-		String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");  //initialize the chrome 
 
 		if (browserName.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "G:\\eclipse\\eclipse2020\\Academic.com\\driver\\chromedriver.exe");
@@ -45,7 +45,7 @@ public class Testbase {
 			driver = new FirefoxDriver();
 		}
 
-		driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("url")); //launches the academic page
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Testutil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
